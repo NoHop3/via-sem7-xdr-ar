@@ -6,7 +6,7 @@
 
 ### Contributors
 - Stefan Georgiev (304284)
-- Huthifa
+- Huthifa Al-Nader (293147)
 
 ### Assets
 
