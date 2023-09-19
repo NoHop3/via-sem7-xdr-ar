@@ -12,9 +12,7 @@
 
 | ID | Name | Publisher |  Link   | Price  | 
 | -- |:-------:|:-------------:|:--------:|:--------:|
-| 1  | Hungry Zombie | Andryuha1981 | [Link](https://assetstore.unity.com/packages/3d/characters/hungry-zombie-99750) | Free |
-| 2  | Skybox Series Free | Avionx | [Link](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633) | Free |
-
+| 1  | Asset name | Asset publisher | [Link](#) | Asset price |
 
 ### Progress bar
 - [x] Initial commit of the app (19.09.2023)
