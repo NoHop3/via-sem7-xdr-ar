@@ -124,7 +124,96 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &434774565
+--- !u!1001 &416666423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1042468748}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20000009
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.6646249
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.034512706
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.315278
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.999957
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004784676
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.004410655
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0066039027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.685
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -258.503
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.561
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+        type: 3}
+      propertyPath: m_Name
+      value: uploads_files_3262486_1962+Jaguar+MK+2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65fa90e1ba9a2e7438fdcb5207b2b650, type: 3}
+--- !u!4 &416666424 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65fa90e1ba9a2e7438fdcb5207b2b650,
+    type: 3}
+  m_PrefabInstance: {fileID: 416666423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &459859504
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,30 +221,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 434774568}
-  - component: {fileID: 434774567}
-  - component: {fileID: 434774566}
-  - component: {fileID: 434774569}
+  - component: {fileID: 459859508}
+  - component: {fileID: 459859507}
+  - component: {fileID: 459859506}
+  - component: {fileID: 459859509}
   m_Layer: 0
-  m_Name: Car.marker1
+  m_Name: ImageTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &434774566
+--- !u!114 &459859506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434774565}
+  m_GameObject: {fileID: 459859504}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -187,13 +276,13 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &434774567
+--- !u!114 &459859507
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434774565}
+  m_GameObject: {fileID: 459859504}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
@@ -202,50 +291,51 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: ar-marker-1
+  mTrackableName: Marker
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/SEM7-XRD-AR.xml
-  mAspectRatio: 0.6669922
+  mDataSetPath: Vuforia/xrd-ar.xml
+  mAspectRatio: 0.99499995
   mImageTargetType: 0
   mWidth: 6
-  mHeight: 4.001953
+  mHeight: 5.97
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 434774569}
---- !u!4 &434774568
+  mPreview: {fileID: 459859509}
+--- !u!4 &459859508
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434774565}
+  m_GameObject: {fileID: 459859504}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.03944688, y: 0.7757263, z: -0.0368109, w: 0.62875867}
+  m_LocalPosition: {x: -2.45, y: 0.12, z: 0.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1042468748}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &434774569
+  m_LocalEulerAnglesHint: {x: 6.126, y: 101.994, z: 0.859}
+--- !u!114 &459859509
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434774565}
+  m_GameObject: {fileID: 459859504}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 434774567}
+  mObserverBehaviour: {fileID: 459859507}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ar-marker-1
-  mDatasetName: Vuforia/SEM7-XRD-AR.xml
-  mCastedBehaviour: {fileID: 434774567}
+  mTargetName: Marker
+  mDatasetName: Vuforia/xrd-ar.xml
+  mCastedBehaviour: {fileID: 459859507}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!1 &804472665
@@ -361,120 +451,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804472665}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.061637253, y: -0.861119, z: 0.48558316, w: 0.1374194}
+  m_LocalPosition: {x: 18.5, y: 17.7, z: 68.4}
+  m_LocalScale: {x: 1.053, y: 1.053, z: 1.053}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &893100398
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 893100399}
-  - component: {fileID: 893100402}
-  - component: {fileID: 893100401}
-  - component: {fileID: 893100400}
-  m_Layer: 0
-  m_Name: Cylinder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &893100399
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893100398}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19, y: 1.45, z: -0.010000229}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1640564177}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &893100400
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893100398}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &893100401
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893100398}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &893100402
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893100398}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_LocalEulerAnglesHint: {x: 55.02, y: -148.853, z: 24.706}
 --- !u!1 &992437589
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,13 +546,13 @@ Transform:
   m_GameObject: {fileID: 992437589}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 1.7406124, y: 1.9565862, z: -0.56267667}
+  m_LocalPosition: {x: -5.810001, y: 35.719997, z: -70.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1640564174
+--- !u!1 &1042468747
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -577,128 +560,79 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1640564177}
-  - component: {fileID: 1640564176}
-  - component: {fileID: 1640564175}
-  - component: {fileID: 1640564178}
+  - component: {fileID: 1042468748}
+  - component: {fileID: 1042468751}
+  - component: {fileID: 1042468749}
+  - component: {fileID: 1042468752}
   m_Layer: 0
-  m_Name: Car.marker2
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1640564175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640564174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StatusFilter: 0
-  UsePoseSmoothing: 0
-  AnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 3.3333333
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.3
-      value: 1
-      inSlope: 3.3333333
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1640564176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640564174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreviewVisible: 1
-  RuntimeOcclusion: 0
-  RuntimeCollider: 0
-  mTrackableName: ar-marker-2
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/SEM7-XRD-AR.xml
-  mAspectRatio: 0.75
-  mImageTargetType: 0
-  mWidth: 6
-  mHeight: 4.5
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
-  mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1640564178}
---- !u!4 &1640564177
+--- !u!4 &1042468748
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640564174}
+  m_GameObject: {fileID: 1042468747}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.63}
+  m_LocalPosition: {x: -0, y: -0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 893100399}
-  m_Father: {fileID: 0}
+  - {fileID: 416666424}
+  m_Father: {fileID: 459859508}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1640564178
+--- !u!65 &1042468749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042468747}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1042468751
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042468747}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1042468752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640564174}
+  m_GameObject: {fileID: 1042468747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: 11500000, guid: 14e90201536e86d41b1a3ae57fe1a950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1640564176}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ar-marker-2
-  mDatasetName: Vuforia/SEM7-XRD-AR.xml
-  mCastedBehaviour: {fileID: 1640564176}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
+  rot: {x: 0, y: 50, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 804472670}
   - {fileID: 992437591}
-  - {fileID: 434774568}
-  - {fileID: 1640564177}
+  - {fileID: 459859508}
