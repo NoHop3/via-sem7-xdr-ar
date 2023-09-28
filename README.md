@@ -11,9 +11,9 @@
 ### Assets & Models
 
 | ID | Type | Name | Publisher |  Link   | Price  | 
-| -- |:-------:|:-------------:|:--------:|:--------:|
-| 1  | Asset | Vuforia Engine | Vuforia | [Link](https://developer.vuforia.com/) | Free tier option |
-| 2  | Model | Volkswagen Golf Mk1 GTI | ??? | [Link](#) | Free |
+| -- |:----:|:----:|:---------:|:-------:|:------:|
+| 1  | Asset| Vuforia Engine | Vuforia | [Link](https://developer.vuforia.com/) | Free tier option |
+| 2  | Model| Volkswagen Golf Mk1 GTI | ??? | [Link](#) | Free |
 
 ### Progress bar
 - [x] Initial commit of the app (19.09.2023)
