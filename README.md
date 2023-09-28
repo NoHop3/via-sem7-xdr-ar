@@ -8,11 +8,12 @@
 - Stefan Georgiev (304284)
 - Huthifa Al-Nader (293147)
 
-### Assets
+### Assets & Models
 
-| ID | Name | Publisher |  Link   | Price  | 
+| ID | Type | Name | Publisher |  Link   | Price  | 
 | -- |:-------:|:-------------:|:--------:|:--------:|
-| 1  | Asset name | Asset publisher | [Link](#) | Asset price |
+| 1  | Asset | Vuforia Engine | Vuforia | [Link](https://developer.vuforia.com/) | Free tier option |
+| 2  | Model | Volkswagen Golf Mk1 GTI | ??? | [Link](#) | Free |
 
 ### Progress bar
 - [x] Initial commit of the app (19.09.2023)
