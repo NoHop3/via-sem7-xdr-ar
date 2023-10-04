@@ -13,7 +13,9 @@
 | ID | Type | Name | Publisher |  Link   | Price  | 
 | -- |:----:|:----:|:---------:|:-------:|:------:|
 | 1  | Asset| Vuforia Engine | Vuforia | [Link](https://developer.vuforia.com/) | Free tier option |
-| 2  | Model| Volkswagen Golf Mk1 GTI | ??? | [Link](#) | Free |
+| 2  | Model| Jaguar MK2 -1962 | cgtrader | [Link](https://www.cgtrader.com/free-3d-models/car/luxury-car/jaguar-mk2-1962) | Free |
+| 3  | Model| Volkswagen Golf Mk1 GTI | cgtrader | [Link](https://www.cgtrader.com/free-3d-models/car/car/volkswagen-golf-mk1-gti-typ-17-1975) | Free |
+
 
 ### Progress bar
 - [x] Initial commit of the app (19.09.2023)
