@@ -1,17 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorScript : MonoBehaviour
 {
     public Color[] colors;
-    public Renderer[] mats;
+    private Renderer[] mats;
+    private ModificationScript modificationScript;
 
     public void ChangeColor(int colorIndex)
     {
-        foreach (Renderer mat in mats)
+        if (modificationScript != null)
         {
-            mat.material.color = colors[colorIndex];
+            Renderer[] modificationRenderers = modificationScript.GetModificationRenderers();
+
+            foreach (Renderer mat in modificationRenderers)
+            {
+                mat.material.color = colors[colorIndex];
+            }
+        }
+    }
+
+    private void Start()
+    {
+        // Find the ModificationScript in the scene
+        modificationScript = FindObjectOfType<ModificationScript>();
+        if (modificationScript == null)
+        {
+            Debug.LogError("ModificationScript not found in the scene.");
         }
     }
 }
