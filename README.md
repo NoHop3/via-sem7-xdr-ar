@@ -13,7 +13,13 @@
 | ID | Type | Name | Publisher |  Link   | Price  | 
 | -- |:----:|:----:|:---------:|:-------:|:------:|
 | 1  | Asset| Vuforia Engine | Vuforia | [Link](https://developer.vuforia.com/) | Free tier option |
-| 2  | Model| Volkswagen Golf Mk1 GTI | ??? | [Link](#) | Free |
+| 2  | Model| Jaguar MK2 -1962 | cgtrader | [Link](https://www.cgtrader.com/free-3d-models/car/luxury-car/jaguar-mk2-1962) | Free |
+| 3  | Model| Volkswagen Golf Mk1 GTI | cgtrader | [Link](https://www.cgtrader.com/free-3d-models/car/car/volkswagen-golf-mk1-gti-typ-17-1975) | Free |
+| 4  | Asset| 3D Tire | GamesAreLife | [Link](https://assetstore.unity.com/packages/3d/props/3d-tire-102580) | Free |
+| 5  | Asset| High-Detail 1970's Supercar Wheel | Tobiesen | [Link](https://assetstore.unity.com/packages/3d/high-detail-1970-s-supercar-wheel-92408) | Free |
+| 6  | Asset| Tire Pack ! | JKTimmons | [Link](https://assetstore.unity.com/packages/3d/vehicles/land/tire-pack-147202) | Free |
+| 7  | Asset| Simple Drift Tires | AiKodex | [Link](https://assetstore.unity.com/packages/3d/vehicles/land/simple-drift-tyres-212232) | Free |
+
 
 ### Progress bar
 - [x] Initial commit of the app (19.09.2023)
