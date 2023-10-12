@@ -335,7 +335,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 628874710}
-        m_TargetAssemblyTypeName: TiresScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -468,7 +468,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1098849480}
-        m_TargetAssemblyTypeName: RimsScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -567,13 +567,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 48235632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 940ef1e03d223344eb7167a040e9c140, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8b1b7d78e8eca48b56ec53c0103671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
   - {r: 1, g: 0, b: 0, a: 0}
-  - {r: 0, g: 0.079025984, b: 1, a: 0}
-  - {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
+  - {r: 0, g: 0.078431375, b: 1, a: 0}
+  - {r: 0.7176471, g: 0.7176471, b: 0.7176471, a: 0}
   - {r: 0.427451, g: 0.58431375, b: 0.5803922, a: 0}
   mats:
   - {fileID: 746510927}
@@ -742,7 +742,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 48235634}
-        m_TargetAssemblyTypeName: PaintScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -875,7 +875,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1694796425}
-        m_TargetAssemblyTypeName: InteriorScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 628874710}
-        m_TargetAssemblyTypeName: TiresScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -1343,7 +1343,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1098849480}
-        m_TargetAssemblyTypeName: RimsScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -1883,7 +1883,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 48235634}
-        m_TargetAssemblyTypeName: PaintScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -2150,7 +2150,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 628874710}
-        m_TargetAssemblyTypeName: TiresScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -2283,7 +2283,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1694796425}
-        m_TargetAssemblyTypeName: InteriorScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -3229,7 +3229,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1098849480}
-        m_TargetAssemblyTypeName: RimsScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -3334,13 +3334,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 628874708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8898714781d96004fa2f2bef05deec9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8b1b7d78e8eca48b56ec53c0103671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
   - {r: 1, g: 0, b: 0, a: 0}
-  - {r: 0, g: 0.2004714, b: 1, a: 0}
-  - {r: 0.764151, g: 0.764151, b: 0.764151, a: 0}
+  - {r: 0, g: 0.20000002, b: 1, a: 0}
+  - {r: 0.76470596, g: 0.76470596, b: 0.76470596, a: 0}
   - {r: 0.47058827, g: 0.63529414, b: 0.63529414, a: 0}
   mats:
   - {fileID: 535239635}
@@ -3682,13 +3682,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 689113953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a137273433baca458a69b6cd588c5f5, type: 3}
+  m_Script: {fileID: 11500000, guid: f0172aca206eabd449318ced0a19934d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modificationMenu: {fileID: 1587439219}
-  colorMenu: {fileID: 1434396357}
-  isColorMenuShowing: 0
-  isModificationMenuShowing: 0
+  modificationSection: {fileID: 1587439219}
+  colorSection: {fileID: 1434396357}
+  isColorSectionShowing: 0
+  isModificationSectionShowing: 0
 --- !u!1 &700859805
 GameObject:
   m_ObjectHideFlags: 0
@@ -3773,7 +3773,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1694796425}
-        m_TargetAssemblyTypeName: InteriorScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -5409,7 +5409,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1098849478}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5199de925188c954cb0f58151a0da92f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8b1b7d78e8eca48b56ec53c0103671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
@@ -5506,7 +5506,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 48235634}
-        m_TargetAssemblyTypeName: PaintScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -5779,7 +5779,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1694796425}
-        m_TargetAssemblyTypeName: InteriorScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -6180,7 +6180,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1098849480}
-        m_TargetAssemblyTypeName: RimsScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -6313,7 +6313,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 628874710}
-        m_TargetAssemblyTypeName: TiresScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
@@ -7176,7 +7176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1694796423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87bee9e20a737f4c891f6abf759a393, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8b1b7d78e8eca48b56ec53c0103671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
@@ -7630,7 +7630,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 48235634}
-        m_TargetAssemblyTypeName: PaintScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: ColorScript, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
