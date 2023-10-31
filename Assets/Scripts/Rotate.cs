@@ -4,12 +4,25 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    public Vector3 rot;
+    public GameObject car; 
+    public float rotationSpeed = 40f; 
+
+    private bool isRotating = false;
 
     void Update()
     {
-        transform.Rotate(rot * Time.deltaTime);
-
+        if (isRotating)
+        {
+            
+            car.transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+        }
     }
 
+    public void ToggleRotation()
+    {
+        isRotating = !isRotating;
+    }
 }
+
+
+
