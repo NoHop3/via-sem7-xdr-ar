@@ -3026,7 +3026,7 @@ Transform:
   m_GameObject: {fileID: 459859504}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03944688, y: 0.7757263, z: -0.0368109, w: 0.62875867}
-  m_LocalPosition: {x: -2.45, y: 0.12, z: 0.45}
+  m_LocalPosition: {x: -30.5, y: 0.12, z: 20.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4231,6 +4231,8 @@ GameObject:
   - component: {fileID: 689113955}
   - component: {fileID: 689113954}
   - component: {fileID: 689113956}
+  - component: {fileID: 689113958}
+  - component: {fileID: 689113957}
   m_Layer: 0
   m_Name: CanvasScriptsHolder
   m_TagString: Untagged
@@ -4282,6 +4284,36 @@ MonoBehaviour:
   colorSection: {fileID: 1434396357}
   isColorSectionShowing: 0
   isModificationSectionShowing: 0
+--- !u!114 &689113957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689113953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3216d585afb478d479e4e964181f61df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mats: []
+  modificationsToPaint: []
+  modificationSectionName: 
+--- !u!114 &689113958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689113953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c8b1b7d78e8eca48b56ec53c0103671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  mats: []
+  colorSectionName: 
 --- !u!1 &697003363
 GameObject:
   m_ObjectHideFlags: 0
