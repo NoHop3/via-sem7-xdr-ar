@@ -25,6 +25,6 @@
 - [x] Initial commit of the app (19.09.2023)
 - [x] Initial commit of README.md (19.09.2023) 
 - [x] Working on AR  & VR projects period (19.09.2023 - 26.11.2023)
-- [ ] Handin of the both projects on Wiseflow (26.11.2023)
+- [x] Handin of the both projects on Wiseflow (26.11.2023)
 
 ### [DevBlog](https://xrdy7.blogspot.com/)
